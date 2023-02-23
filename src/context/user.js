@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, createContext } from "react";
 
-const UserContext=React.createContext();
+const UserContext= createContext();
 
 function UserProvider({children})
 {
